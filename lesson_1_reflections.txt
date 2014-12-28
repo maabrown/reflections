@@ -1,0 +1,133 @@
+Helped me see that small typing mistakes
+can have larger implications for entire
+programs which is not so fun. Also it does
+help because it, I'm assuming, will allow
+me as a future programmer to really focus
+on the coding and not so hard on things
+like spelling and particular syntax. Not
+that those things are not important but
+it means that missing one letter doesn't
+have to result in hours of manpower
+looking for the difference since the 
+computer can do it for me.
+
+How could have easy access to the entire
+history of a file make you a more efficient
+programmer in the long term?
+
+Because by having various versions you
+will have an accumulation of written 
+knowledge that you can use in future works.
+In building websites or any program you can
+think of multiple solutions to one problem
+and by having the entire history of a file
+you can easily begin to will have
+documentation not only of when and why you
+decided pro or against a particular method
+but also the methodology. Also, it can ease
+your mind as your program because you know
+that any work that you have done is never
+truly "lost" but rather simply in an old
+version. You know that you can always go
+back and find it. It also gives you some
+sense of a progression/work style for your
+own personal reflection.
+
+What do you think are the pros and cons of 
+manually choosing when to create a commit
+vs having versions automatically saved?
+
+Manually -
+	Pro: 
+		I am in control of when to commit
+		I can define what is importand 
+			aboutthe commit
+		Makes sure that there aren't too
+			many commits that make using
+			'diff' too hard to use
+		Gives me a stronger sense of 
+			ownership over the entire
+			project
+		The act of creating a commit won't
+			interrupt my programming
+			process
+
+	Con:
+		Programmers may forget to save on
+			their own timeline and lose work
+		Programmers have to decide when they
+			want to commit - which can lead
+			to things being 'too big' or
+			'too small'
+
+Automatic -
+	Pro:
+		Don't have to think about when to
+			commit
+
+	Con:
+		No control over the number of 
+			commits which can make using
+			'diff' function hard
+		Programmer can't make comments
+			about why each commit was made
+		Work can be lost if a programmer
+			uses online capability
+
+
+Why do you think some version control systems
+allow saving multiple files in one commit while
+others treat each file seperately?
+
+Mantains the idea of thinking about the 
+project holistically. It also makes sure that
+any changes you make, as you move through 
+various langauges to ensure aesthetic and
+functional continuity, will be saved together
+rather than having them saved individually - 
+the grouping of them together is more intuitive
+to the coding process. In addition, it would be
+hard to match up the various files individually
+if a programmer was to go back to make changes
+or examine previous work.
+
+
+How can you use the commands git log and git diff
+to view the history of files?
+
+git log can be used to see all the changes that
+you (and others) have made in chronological order
+with notes that tell the developers what is
+important about their commit. Using the git log
+function allows for an 'overview' of the stages 
+of the various files and projects - a bird's eye
+view.
+
+git diff allows for a more detail-oriented approach
+to looking at the history and updates of a
+file, project, or repository. by looking for
+differences between two files a developer can see
+what changes were made on a micro-level without
+being bogged down with multiple file differences.
+
+How might using version control make you more 
+confident to make changes that might break something?
+
+Because I can commit in various stages and have the
+computer log those stages using git, I can recall
+and work through them as a I make bugs. Rather than
+having to remember what changes I made as I build
+things - between using git log to see the ID's and 
+gif diff to see the actual coding differences between
+files, I know that my mistakes can be found efficiently
+without having to waste a significant amount of my time
+because I can always find my 'bug' or problem later.
+Changes are never permeanent and their existence can
+be found using version control - rather than expecting
+my eyes and memory to find and fix them.
+
+What do you want to try using Git for?
+
+It would be great to use it to track my changes that
+I make to future webpages or JavaScript programming.
+
