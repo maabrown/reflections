@@ -12,7 +12,7 @@ repository? What value do you think it offers?
 
 The staging area is different from the working directory because it is
 holding the files that you are using in the working directory but before you
-have commit them to respository (which is filled with your 'final or 'updated'
+have commit them to repository (which is filled with your 'final or 'updated'
 drafts). Staging area is different from repository because files in the 
 staging area are not finalized and saved in their current form - so they are
 still relatively flexible. Files in the repository are in their most updated
@@ -22,3 +22,38 @@ them in the staging area, and then commit them.
 It offers the chance for developers to make sure that they are commit'ing the
 right files. It also allows them to see which files they have open - which
 can be useful if you are working on multiple projects at the same time.
+
+How can you use the staging area to make sure you have one commit per
+logical change?
+
+You can use the staging area to see which files are ready to be committed
+and use the diff function to see what the changes are between the latest
+commit and the one in the staging area.
+
+What are some situations when branches would be helpful in keeping your
+history organized? How would branches help?
+
+Branhces would be helpful if I wanted to work on various prototypes of a 
+webpage for a client (to give them color/UX designs), if  I want to make
+various versions of a game (hard/average/easy), or if I wanted to create
+different types of the same webpage for potential compliance issues
+(such as language, readability, etc).
+
+Branches would help in this case because it would allow me to work on a 
+seperate file repository without worrying that I would be changing the
+master set. In addition, by having a separate branch I could feel that I 
+can make mistakes without feeling that my work is 'precious' since I would
+working away from the master respository. Branches also could help, which
+I know is coming later, with collaboration since everyone could be working
+from the same foundation of files but working on different aspects of the 
+major project (subpages, making a site responsive, adding different
+functionalities or interative graphics to a site, etc).
+
+How do the diagrams help you visualize the branch structure?
+
+The diagrams visually demonstrate the idea of a "HEAD" and how the commits
+trace back to the initial commit. It also explains how a commit can be 'lost'
+if it is not tied to a branch head and how working on a separate branch, if
+good, would need to be merged with the master branch since it is not always
+using the most updated versions of the respository.
+
