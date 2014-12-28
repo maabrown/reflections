@@ -57,3 +57,13 @@ if it is not tied to a branch head and how working on a separate branch, if
 good, would need to be merged with the master branch since it is not always
 using the most updated versions of the respository.
 
+What is the result of merging two branches together? Why do we represent it
+in the diagraph the way we do?
+
+When you merge two branches together it combines their code and links their
+commit lineages into one so that the history is cleaner and doesn't require
+knowing the names of two separate heads.
+
+We represent merges in our fashion because it shows that the commits that
+are linked via the old HEAD are not lost. Also, it shows which two HEADS
+are combined into each other.
