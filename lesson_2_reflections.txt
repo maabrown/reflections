@@ -1,0 +1,24 @@
+What happens when you initialize a repository? Why do you need to do it?------
+
+When initializing a repository it gives the computer the 'go' to track changes
+in the files that you are planning on using.
+
+It is important because it starts to track changes and allows you to write
+messages for the commits you plan to make.
+
+
+How is the staging area different from the working directory and the 
+repository? What value do you think it offers?
+
+The staging area is different from the working directory because it is
+holding the files that you are using in the working directory but before you
+have commit them to respository (which is filled with your 'final or 'updated'
+drafts). Staging area is different from repository because files in the 
+staging area are not finalized and saved in their current form - so they are
+still relatively flexible. Files in the repository are in their most updated
+or final forms - will no flexibility unless you open them, make changes, store
+them in the staging area, and then commit them.
+
+It offers the chance for developers to make sure that they are commit'ing the
+right files. It also allows them to see which files they have open - which
+can be useful if you are working on multiple projects at the same time.
