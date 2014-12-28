@@ -67,3 +67,35 @@ knowing the names of two separate heads.
 We represent merges in our fashion because it shows that the commits that
 are linked via the old HEAD are not lost. Also, it shows which two HEADS
 are combined into each other.
+
+What are the pros and cons of Git's automatic merging vs. always doing merges
+manually?
+
+Automatic Merging:
+	Pros
+		Finds the places where two files are in conflict
+		Merges a significant amount of code without errors
+		Allows you to be in control of which branch is being into another
+
+	Cons
+		You have to tell the computer when to merge
+		It may say that there are conflicts in the code when in reality
+			there may not, which takes time to manuever the code so it is
+			permissible to Git
+
+Manual Merging
+	Pros
+		You have a clear idea if conflicts exist so you won't stop
+			yourself from merging or fixing code for aesthetic purposes
+		You can see the two files that you are looking to merge since you
+			will be copy and pasting
+		You have a clear idea of the timeline of your merging process
+
+	Cons:
+		There is a significant potential for error by only manually
+			merging
+		Would take up a lot of time to merge files if the coding is
+			hundreds of lines long
+		You may not be conscious of potential errors or conflicts
+			in the coding that a computer could find quickly
+
