@@ -47,7 +47,24 @@ stored locally?
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
 
-    Fill in your answer here
+    If I had to collaborate without using Git or GitHub I imagine that there
+    would have to be some sort of real-time updated Excel sheet or some
+    other type of database that would allow people to see if changes have been/
+    or should be made to various coding sections. In addition, I'm sure that
+    there would be more emails sent back-and-forth between team members.
+
+    Easier:
+        -- No need to learn new command line action
+
+    Harder:
+        -- Making sure that there are little errors in the updating copy/paste
+            process
+        -- Allowing people to be creative with code would be harder because
+            keeping a "master" code would require an extremely detail
+            oriented person who would have to see how the changes would
+            interact with existing code
+        -- Wouldn't allow for cloud/online sharing which would limit the
+            developers you could work with on projects
 
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
