@@ -69,4 +69,23 @@ and what would be harder?
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
-    Fill in your answer here
+   You would want to make changes to a seperate branch when you working on a new
+   feature, prototyping a new design to get feedback, or simply writing some
+   interesting code that you would not want to have on the master branch. By
+   using a branch you can continue to code without worrying about it being seen
+   by the public and/or causing problems for others with whom you are
+   collaborating.
+
+   Changes in the master:
+    - Only have to update one set of code
+    - People will always have the most updated version of code (even with all
+        of its potential bugs)
+    - Your team is always working on the same set of code
+
+    Changes using branches:
+    - Allows for collaborators to be adventurous without worrying about
+        damaging the master branch
+    - Allow for people to give you feedback throughout your process via the
+        push merges
+    - Allows for multiple projects to be happening simultaneously without
+        a signficant amount of confusion or potental merging conflicts
