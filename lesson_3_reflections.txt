@@ -12,7 +12,10 @@ automatically stay up-to-date with your remote repository?
     potentially pull changes too often without you having done anything
     substantial enough to require a commit. In addition, if you were working
     in a particular branch, Git could update and save your work in the wrong
-    branch.
+    branch. Pulling changes manually allows the developer to have more
+    control over the number of commits and be conscious of his work in
+    relationship to what is saved on his local device, and what is hosted
+    publically on Git.
 
 Describe the differences between forks, clones, and branches.  When would you
 use one instead of another?
